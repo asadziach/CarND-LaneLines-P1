@@ -98,4 +98,4 @@ If line of sight is not clear then current technique of finding lane lines will 
 
 * Deep learning algorithms are robust at coping with variation in color and other problems listed previously. We dont have to to hardcode HSV and Area of Interest with something like TensorFlow.
 * We can use the knowledge that frames in a video are related and apply the knowledge form previous frame to better predict lanes in next frame. This can also fix jumpiness as seen in current implementation.
-* We should separate out detection from tacking. Detect the lanes lines from Deep Learning and tack it with the specified techniques which are used to track features in a video.
+* We should separate out detection from tacking. Detect the lanes lines from Deep Learning/Machine Leanring and tack it with the off-the shelf feature tracking techniques in computer vision.
